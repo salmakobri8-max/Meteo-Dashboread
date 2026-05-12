@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard_de_Météo</title>
+    <link rel="stylesheet" href="mp.css">
+</head>
+
+<body>
+    <h1>Dashboard de Météo</h1> <br> 
+    <label id="ville">Nom de ville:</label>
+    <input type="text" id="inpville" placeholder="-choisir une ville-">
+    <button id="botton">Ajouter</button> <br>
+    <label id="carte">Cartes Météo</label>
+    <div id="d1"> </div>
+    <style> 
+        div{
+            border:3px solid black ;
+            width: 400px;
+            height: 200px;
+            background-color: rgb(141, 230, 230);
+        }
+        div:hover{
+            background-color: rgb(4, 96, 243);
+            transition: 2s;
+        }
+    </style>
+    <script src="mp.js"></script>
+</body>
+</html>
